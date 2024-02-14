@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SinglelinechartComponent } from './singlelinechart/singlelinechart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SinglelinechartComponent
   ],
   imports: [
     BrowserModule,
